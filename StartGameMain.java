@@ -30,7 +30,7 @@ public class StartGameMain {
 
                 playerPosition -= dieRoll;
 
-                if(playerPosition > 0) {
+                if(playerPosition < 0) {
 
                     playerPosition = 0;
                 }
