@@ -15,7 +15,7 @@ public class StartGameMain {
         dieRoll = random.nextInt(6) + 1;
         options = random.nextInt(3) + 1;
 
-        while(playerPosition > WINNING_POSITION) {
+        while(playerPosition < WINNING_POSITION) {
 
             if (options == NO_PLAY) {
 
