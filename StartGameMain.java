@@ -31,8 +31,6 @@ public class StartGameMain {
 
             }
 
-            System.out.println("Player positon = " + playerPosition);
-
     }
 
 }
