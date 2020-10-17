@@ -1,12 +1,10 @@
 public class StartGameMain {
+    
+    public static final int START_POSITION = 0;
 
     public static void main(String[] args) {
 
-        int playerPosition = 1;
-
-        while(playerPosition != 100) {
-
-        }
+        int playerPosition = START_POSITION;
 
     }
 
